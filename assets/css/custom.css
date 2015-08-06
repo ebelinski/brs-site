@@ -1,0 +1,52 @@
+/* Past event style details */
+#past-events-container {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#past-events {
+	padding: 30px 0px;
+	border-bottom: 3px #404f62 solid;
+}
+
+/* This is for hiding the loading icon from the start */
+#preloader {
+	display: none;
+}
+
+/* Event register button styling */
+
+#register-button {
+	margin-top: 15px;
+}
+
+/*social media tab at base of header*/
+
+.event-description {
+    position: absolute;
+	width: 100%;
+	text-align: center;
+	display: block !important;
+}
+
+.event-description .container {
+	width: 350px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 360px) {
+	.event-description .container {
+		width: 180px;
+	}
+}
+
+.tab-content-limited {
+	overflow: hidden;
+	max-height: 600px;
+}
+
+div.container-toggle-expand-events {
+	background-color: #435469;
+	text-align: center;
+	padding: 20px 0px 12px;
+}
