@@ -36,127 +36,6 @@ include("header.php");
                     </div>
                 </div>
 
-                <!-- Slide 
-                <div class="item page text-center slide1">
-                    <div class="caption">
-                    <div class="container">
-                        <div class="div-table">
-                        <div class="div-cell">
-                            <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>December 6, 2014</span></h2>
-                            <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300"><i class="fa fa-angle-left"></i> PHP Conference ın Istanbul <i class="fa fa-angle-right"></i></h3>
-                            <p class="caption-text">
-                                <a class="btn btn-theme btn-theme-xl scroll-to" href="#register" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-                                <a class="btn btn-theme btn-theme-xl btn-theme-transparent-white" href="http://www.youtube.com/watch?v=O-zpOMYRi0w" data-gal="prettyPhoto" data-animation="flipInY" data-animation-delay="900">Watch video</a>
-                            </p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                -->
-
-                <!-- Slide 
-                <div class="item page slide2">
-                    <div class="caption">
-                    <div class="container">
-                        <div class="div-table">
-                        <div class="div-cell">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="form-background">
-                                    <div class="form-header color">
-                                        <h1 class="section-title">
-                                            <span class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
-                                            <span class="title-inner">Event Register</span>
-                                        </h1>
-                                    </div>
-
-                                    <form id="registration-form-alt" name="registration-form-alt" class="registration-form alt" action="#" method="post">
-                                        <div class="row">
-                                            <div class="col-sm-12 form-alert"></div>
-                                            <div class="col-sm-12">
-                                                <div class="form-group">
-                                                    <input
-                                                            type="text" class="form-control input-name"
-                                                            data-toggle="tooltip" title="Name is required"
-                                                            placeholder="Name and Surname"/>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <div class="form-group">
-                                                    <input
-                                                            type="text" class="form-control input-email"
-                                                            data-toggle="tooltip" title="Mail is required"
-                                                            placeholder="Your Mail Here"/>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <div class="form-group">
-                                                    <input
-                                                            type="text" class="form-control input-phone"
-                                                            placeholder="Your Phone Number"/>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <div class="form-group selectpicker-wrapper">
-                                                    <select
-                                                            class="selectpicker input-price" data-live-search="true" data-width="100%"
-                                                            data-toggle="tooltip" title="Select Your Price Tab">
-                                                        <option>Select Your Price Tab</option>
-                                                        <option>$100</option>
-                                                        <option>$200</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <div class="text-center">
-                                                    <button
-                                                            data-animation="flipInY" data-animation-delay="100"
-                                                            class="btn btn-theme btn-block submit-button" type="submit"
-                                                            > Register Now <i class="fa fa-arrow-circle-right"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-8">
-                                    <div class="text-holder">
-                                    <h2 class="caption-title">December 6, 2014</h2>
-                                    <h3 class="caption-subtitle">PHP Conference ın ıstanbul </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Event description 
-                            <!-- /Event description
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div> 
-                -->
-
-                <!-- Slide 
-                <div class="item page text-center slide3">
-                    <div class="caption">
-                    <div class="container">
-                        <div class="div-table">
-                        <div class="div-cell">
-                            <h2 class="caption-title"><span>December 6, 2014</span></h2>
-                            <h3 class="caption-subtitle"><i class="fa fa-angle-left"></i>0.5k Winter Beer Dash<i class="fa fa-angle-right"></i></h3>
-                            <p class="caption-text">
-                                <a class="btn btn-play" href="http://www.youtube.com/watch?v=O-zpOMYRi0w" data-gal="prettyPhoto"><i class="fa fa-play"></i></a>
-                            </p>
-                            <!-- Event description
-                            <!-- /Event description 
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div> 
-                -->
-
             </div>
             </div>
 
@@ -247,7 +126,7 @@ include("header.php");
                             <div class="tab-content lv2">
                                 <div id="tab-lv21-first" class="tab-pane fade in active">
                                     <div class="timeline">
-                                        
+
                                         <!--<div id="past-events-container">
                                             <a class="btn btn-theme btn-theme-lg scroll-to" id="toggle-past-events" href="#" data-animation="flipInY" data-animation-delay="600">Show Past Events</a>
                                             <div id="past-events">-->
@@ -277,30 +156,15 @@ include("header.php");
                                                                     <p>Join us for a kickoff event that will include beer samples, live music, registration deals &amp; more! We'll be celebrating at <a href="http://www.runningroom.com/hm/inside.php?id=2524" target="_blank">The Running Room in Uptown</a> &mdash; we can't wait to see you there!</p>
                                                                 </div>
                                                             </div>
-                                                            <!--<div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / TBD</li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>--
-                                                                </span>
-                                                            </div>-->
                                                         </div>
-                                                        <!-- -->
                                                     </div>
                                                 </article>
 
                                                 <article class="post-wrap">
                                                     <div class="media">
-                                                        <!-- -->
                                                         <div class="post-media pull-left">
                                                             <img src="assets/img/preview/dangerous-man.png" alt="" class="media-object" />
                                                         </div>
-                                                        <!-- -->
                                                         <div class="media-body">
                                                             <div class="post-header">
                                                                 <div class="post-meta">
@@ -521,7 +385,7 @@ include("header.php");
                                                         <!-- -->
                                                     </div>
                                                 </article>
-                                                
+
                                                 <article class="post-wrap">
                                                     <div class="media">
                                                         <!-- -->
@@ -567,10 +431,10 @@ include("header.php");
                                                     </div>
                                                 </article>
         									<!--</div>
-        								</div>-->	
+        								</div>-->
 
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                         <!-- tab2 -->
@@ -590,824 +454,11 @@ include("header.php");
                                         <div id="past-events-container">
                                             <a class="btn btn-theme btn-theme-lg scroll-to" id="toggle-past-events" href="#" data-animation="flipInY" data-animation-delay="600">Show Past Events</a>
                                             <div id="past-events">
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div class="post-media pull-left">
-                                                            <img src="assets/img/preview/fulton.png" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Tuesday, June 2 &#8212; <strong>6:00pm</strong></span>
-                                                                    <a href="http://ate.so/?GAR1O44" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?GAR1O44" target="_blank">Fulton</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Come celebrate National Running Day with us! Our longest running event in the Series, a happy hour style fun run + beer is a great way to enjoy a Tuesday evening! Click on the big red button for more info &amp; to register.<br>
-                                                                            <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/beer-run-fulton-brewery-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="https://thegatl.bandcamp.com/releases">The Gentlemen's Anti-Temperance League</a></li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / Classic Yum</li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-                                            
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div id="harriet" class="post-media pull-left">
-                                                            <img src="assets/img/preview/harriet.jpg" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, June 13 &#8212; <strong>12:00pm</strong></span>
-                                                                    <a href="http://ate.so/?pbcoodi" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?pbcoodi" target="_blank">Harriet Brewing</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Live music, food trucks, and amazing Belgian ales &amp; German lagers! Maybe a little hammerschlagen. Paired with a fun run, friends, and sunny day&hellip;this is what we like to call a Harriet Beer Run! AND&hellip;our run will kickoff Harriet's official High Summer Reggae Fest!!! Click on the big red button for more info &amp; to register.<br>
-                                                                            <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/beer-run-harriet-brewery-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="http://ragtownmusic.com/">Ragtown</a></li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / Multiple!</li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div class="post-media pull-left">
-                                                            <img src="assets/img/preview/third-street.png" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, June 20 &#8212; <strong>12:00pm</strong></span>
-                                                                    <a href="http://ate.so/?hDgOsEQ" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?hDgOsEQ" target="_blank">Third Street Brewhouse</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Our first out state MN run, and what better place than in Cold Springs, MN, a town with a long history of brewing! Bound to be a great time &mdash; food, music, games &amp; more. Stay for the party and celebrate Third Street’s Third anniversary from 2 to 8pm. Limited release beers, live music, BBQ, brewery tours, and more! Click on the big red button for more info &amp; to register.<br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/cold-springs-mn-mn/running/distance-running-races/beer-run-third-street-brewhouse-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="http://www.moedell.net/"> MoeDeLL</a></li>
-                                                                        <li><i class="fa fa-cutlery"></i> <strong>Food</strong> / BBQ: Grilled Brats and Burgers</li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-                                            
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div id="bentpaddle" class="post-media pull-left">
-                                                            <img src="assets/img/preview/bent-paddle.png" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, June 27 &#8212; <strong>10:00am</strong></span>
-                                                                    <a href="http://ate.so/?buYMmtF" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?buYMmtF" target="_blank">Bent Paddle</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Hello Duluth! You could call the end of June a road-trip for us, as this will make back-to-back weekends of out state MN breweries. Take back a great beer, in this wonderful brewery that's mission is to bend the traditions. See you at The Bent Tap. Click on the big red button for more info &amp; to register.<br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/duluth-mn/running/races/beer-run-bent-paddle-brewstillery-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="http://www.pushingchain.com/">Pushing Chain</a></li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / <a href="https://www.facebook.com/dsdogs12"> D's Dogs </a></li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div class="post-media pull-left">
-                                                            <img src="assets/img/preview/superior-brewing.jpg" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, June 27 &#8212; <strong>2:00pm</strong></span>
-                                                                    <a href="http://ate.so/?buYMmtF" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?buYMmtF" target="_blank">Lake Superior Brewing</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            A Duluth double-header! Fun run starts at 2pm at one of MN's oldest micro breweries! Click on the big red button for more info &amp; to register.<br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/duluth-mn/running/distance-running-races/beer-run-lake-superior-brewing-part-of-the-mn-brewery-running-series-event-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href"https://www.facebook.com/woodblindska"> Wood Blind </a></li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> /<a href="https://www.facebook.com/dsdogs12"> D's Dogs </a></li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div id="jogger1" class="post-media pull-left">
-                                                            <img src="assets/img/preview/brs-logo.jpg" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Wednesday, July 8 &#8212; <strong>5:00pm</strong></span>
-                                                                    <a href="#" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="#" target="_blank">The Lager Jogger Part 1</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Join us at the Craft Bar &amp; Lounge inside the Convention Center for the start of a fun run in Minneapolis, followed by a great craft brew! The Lager Jogger event is open to the community and sure to be a great time! Participants receive a beer &amp; goodie bag included in registration. Registration Opening Soon! <!--Click on the big red button for more info &amp; to register.--><br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/races/lager-jogger-a-collaboration-of-the-mn-brewery-running-series-and-the-national-senior-games-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <!--<ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / TBD</li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>
-                                                                    </ul>-->
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div id="gwbc" class="post-media pull-left">
-                                                            <img src="assets/img/preview/great-waters.jpg" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, July 11 &#8212; <strong>11:00am</strong></span>
-                                                                    <a href="http://ate.so/?y4DKnkN" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?y4DKnkN" target="_blank">Great Waters Brewing Co.</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            One of the more established brewery / brew pubs in town, GWBC has been brewing beer since before the internet. Located on a cozy street in Downtown St. Paul, the fun run course will weave through our great State's capital! A true St. Paul experience! Click on the big red button for more info &amp; to register.<br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/st-paul-mn/running/distance-running-races/beer-run-great-waters-brewing-co-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="https://www.facebook.com/TheRootRiot"> Root Riot</a></li>
-                                                                        <!--<li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>-->
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div class="post-media pull-left">
-                                                            <img src="assets/img/preview/brs-logo.jpg" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, July 11 &#8212; <strong>11:00am</strong></span>
-                                                                    <a href="#" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="#" target="_blank">The Lager Jogger Part 2</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Join us at the Craft Bar &amp; Lounge inside the Convention Center for the start of a fun run in Minneapolis, followed by a great craft brew! The Lager Jogger event is open to the community and sure to be a great time! Participants receive a beer &amp; goodie bag included in registration. Registration Opening Soon! <!--Click on the big red button for more info &amp; to register.--><br>
-                                                                            <!--<a id="register-button" id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/races/lager-jogger-a-collaboration-of-the-mn-brewery-running-series-and-the-national-senior-games-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <!--<ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / TBD</li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>
-                                                                    </ul>-->
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div class="post-media pull-left">
-                                                            <img src="assets/img/preview/boom-island.jpg" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, July 18 &#8212; <strong>11:00am</strong></span>
-                                                                    <a href="http://ate.so/?cvmdukc" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?cvmdukc" target="_blank">Boom Island</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Part of Boom Days hosted at the brewery, join us for amazing &mdash; mostly Belgian style &mdash; beers, live music, food trucks and more festivities at the brewery than you can shake a stick at! Click on the big red button for more info &amp; to register.<br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/beer-run-boom-island-brewing-co-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="https://soundcloud.com/kendricvoss">Kendrick Voss</a></li>
-                                                                        <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / <a href="http://gastrotruck.mobi/">Gastrotruck</a></li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div class="post-media pull-left">
-                                                            <img src="assets/img/preview/bent.png" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, July 25 &#8212; <strong>11:00am</strong></span>
-                                                                    <a href="http://ate.so/?Il4AI9z" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="http://ate.so/?Il4AI9z" target="_blank">Bent Brewstillery</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Did you say BREWSTILLERY? Yes, that's right &mdash; the best of both worlds. Beer &amp; sprits come together with a nice fun run around the Brewery in Roseville. Live music will be kickin', there'll be patio games, a food truck, and more! Click on the big red button for more info &amp; to register.<br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/roseville-mn/running/distance-running-races/beer-run-bent-brewstillery-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="https://www.facebook.com/sadman.gonzoexperiment?fref=ts" target="_blank">Sadman &amp; The Gonzo Experiment</a></li>
-                                                                        <li><i id="netakeover" class="fa fa-cutlery"></i> <strong>Food </strong> / <a href="http://www.riffssmokehouse.com/" target="_blank">Riff's Smokehouse</a></li>
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-                                                <article class="post-wrap">
-                                                    <div class="media">
-                                                        <!-- -->
-                                                        <div class="post-media pull-left">
-                                                            <img src="assets/img/preview/tap-takeover.png" alt="" class="media-object" />
-                                                        </div>
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> Sunday, July 26 &#8212; <strong>12:00PM</strong></span>
-                                                                    <a href="#" target="_blank" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="#" target="_blank">NE Runner Takeover</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p class="caption-text">
-                                                                            Join us for a once in a life time running experience that will include a start line dance party, a running course that literally goes through a brewery, and 'sliding' across the finish line. The post-run experience includes food trucks, 11 breweries, and live music! Also enjoy free pre-run warm-ups, a free beer, a collectors pint glass, and much more! Click on the big red button for more info &amp; to register.<br>
-                                                                            <!--<a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/beer-run-northeast-runners-takeover-part-of-the-mn-brewery-running-series-event-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>-->
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <ul>
-                                                                        <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="http://soundcloud.com/dj-dt" target="_blank">DJ DT</a></li>
-                                                                        <!--<li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>-->
-                                                                    </ul>
-                                                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <!-- -->
-                                                    </div>
-                                                </article>
-
-						                        <article class="post-wrap">
-		                                            <div class="media">
-		                                                <!-- -->
-		                                                <div class="post-media pull-left">
-		                                                    <img src="assets/img/preview/nershfest.png" alt="" class="media-object" />
-		                                                </div>
-		                                                <!-- -->
-		                                                <div class="media-body">
-		                                                    <div class="post-header">
-		                                                        <div class="post-meta">
-		                                                            <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, August 1 &#8212; <strong>12:00PM</strong></span>
-		                                                            <a href="#" target="_blank" class="pull-right">
-		                                                                <span class="fa-stack fa-lg">
-		                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-		                                                                    <i class="fa fa-stack-1x fa-calendar"></i>
-		                                                                </span>
-		                                                            </a>
-		                                                        </div>
-		                                                        <h2 class="post-title"><a href="#" target="_blank">Nershfest 2015 Beer Run</a></h2>
-		                                                    </div>
-		                                                    <div class="post-body">
-		                                                        <div class="post-excerpt">
-		                                                            <p class="caption-text">
-		                                                                    Kicking off Nershfest 2015, join us for a fun beer run that starts &amp; ends at Harriet Brewery! Each participant receives a free beer, early access into NershFest, a souvenir pint glass, chance to win prizes, a fun time &amp access to free samples from local vendors! Multiple bands lined up for the day - sure to be a GREAT time! A portion of all proceeds from the fun run will support the MN Music Coalition! Click on the big red 
-		                                                                    button for more info &amp; to register.<br>
-		                                                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/races/beer-run-nershfest-harriet-brewery-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-		                                                            </p>
-		                                                        </div>
-		                                                    </div>
-		                                                    <div class="post-footer">
-		                                                        <span class="post-readmore">
-		                                                            <ul>
-		                                                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / Multiple</li>
-		                                                                <!--<li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>-->
-		                                                            </ul>
-		                                                            <!--<a href="#"><i class="fa fa-facebook"></i></a>
-		                                                            <a href="#"><i class="fa fa-twitter"></i></a>
-		                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-		                                                            <a href="#"><i class="fa fa-instagram"></i></a>-->
-		                                                        </span>
-		                                                    </div>
-		                                                </div>
-		                                                <!-- -->
-		                                            </div>
-		                                        </article>
-		
-		
-		                                        <article class="post-wrap">
-		                                            <div class="media">
-		                                                <!-- -->
-		                                                <div class="post-media pull-left">
-		                                                    <img src="assets/img/preview/brits-pub.jpg" alt="" class="media-object" />
-		                                                </div>
-		                                                <!-- -->
-		                                                <div class="media-body">
-		                                                    <div class="post-header">
-		                                                        <div class="post-meta">
-		                                                            <span class="post-date"><i class="fa fa-clock-o"></i> Sunday, August 2 &#8212; <strong>10:00AM</strong></span>
-		                                                            <a href="#" target="_blank" class="pull-right">
-		                                                                <span class="fa-stack fa-lg">
-		                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-		                                                                    <i class="fa fa-stack-1x fa-calendar"></i>
-		                                                                </span>
-		                                                            </a>
-		                                                        </div>
-		                                                        <h2 class="post-title"><a href="#" target="_blank">Brit's Pub Run</a></h2>
-		                                                    </div>
-		                                                    <div class="post-body">
-		                                                        <div class="post-excerpt">
-		                                                            <p class="caption-text">
-		                                                                    A fun run that starts &amp; ends at Brit's Pub in downtown Minneapolis! Free Summit beer at the finish, and each runner receives a 
-		                                                                    souvenir pint glass, free runners SWAG from Gear Running Store, and more! Live music by Wain McFarlane, chance to win one of many 
-		                                                                    raffled prizes like Twins Tickets &amp; gift cards, and tons of fun hanging out on the roof top patio at Brit's! Click on the big red 
-		                                                                    button for more info &amp; to register.<br>
-		                                                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/brit-s-pub-run-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-		                                                            </p>
-		                                                        </div>
-		                                                    </div>
-		                                                    <div class="post-footer">
-		                                                        <span class="post-readmore">
-		                                                            <ul>
-		                                                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / Wain McFarlane</li>
-		                                                                <!--<li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>-->
-		                                                            </ul>
-		                                                            <!--<a href="#"><i class="fa fa-facebook"></i></a>
-		                                                            <a href="#"><i class="fa fa-twitter"></i></a>
-		                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-		                                                            <a href="#"><i class="fa fa-instagram"></i></a>-->
-		                                                        </span>
-		                                                    </div>
-		                                                </div>
-		                                                <!-- -->
-		                                            </div>
-		                                        </article>
+                                                <!-- TODO: PUT PAST EVENTS HERE FROM JSON -->
                                             </div>
                                         </div>
 
-                                        <article class="post-wrap">
-                                            <div class="media">
-                                                <!-- -->
-                                                <div class="post-media pull-left">
-                                                    <img src="assets/img/preview/day-block.png" alt="" class="media-object" />
-                                                </div>
-                                                <!-- -->
-                                                <div class="media-body">
-                                                    <div class="post-header">
-                                                        <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> Thursday, August 6 &#8212; <strong>6:00pm</strong></span>
-                                                            <a href="http://ate.so/?F0mL15S" target="_blank" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                        <h2 class="post-title"><a href="http://ate.so/?F0mL15S" target="_blank">Day Block Brewing</a></h2>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-excerpt">
-                                                            <p class="caption-text">
-                                                                    Happy beer hour, part 2 of the year. Join us for our second of two weekday beer runs, hosted at this lovely brewpub in Downtown Minneapolis serving up beer, pizza's, bacon flights and more. Live music &amp; great food! Click the big red button for more info &amp; to register.<br>
-                                                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/beer-run-day-block-brewing-co-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="post-footer">
-                                                        <span class="post-readmore">
-                                                            <ul>
-                                                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="https://thegatl.bandcamp.com/releases">The Gentlemen's Anti-Temperance League</a></li>
-                                                                <!--<li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>-->
-                                                            </ul>
-                                                            <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                            <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!-- -->
-                                            </div>
-                                        </article>
-
-                                        <article class="post-wrap">
-                                            <div class="media">
-                                                <!-- -->
-                                                <div class="post-media pull-left">
-                                                    <img src="assets/img/preview/612.png" alt="" class="media-object" />
-                                                </div>
-                                                <!-- -->
-                                                <div class="media-body">
-                                                    <div class="post-header">
-                                                        <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, August 8 &#8212; <strong>11:00am</strong></span>
-                                                            <a href="http://ate.so/?67UT5yL" target="_blank" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                        <h2 class="post-title"><a href="http://ate.so/?67UT5yL" target="_blank">612 Brew</a></h2>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-excerpt">
-                                                            <p class="caption-text">
-                                                                    One of our bigger events of the year, join us for a Brew-run-ery of a time. Live music on the expansive patio, along with yard games, food truck, and SIX in your hand after a nice run through Nordeast' = AWESOME! Click on the big red buton for more info &amp; to register.<br>
-                                                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/beer-run-612brew-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="post-footer">
-                                                        <span class="post-readmore">
-                                                            <ul>
-                                                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / Watson</li>
-                                                                <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / <a href="http://www.yelp.com/biz/hibachi-daruma-st-paul">Hibachi Daruma</a></li>
-                                                            </ul>
-                                                            <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                            <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!-- -->
-                                            </div>
-                                        </article>
-
-                                        <article class="post-wrap">
-                                            <div class="media">
-                                                <!-- -->
-                                                <div class="post-media pull-left">
-                                                    <img src="assets/img/preview/fair-state.jpg" alt="" class="media-object" />
-                                                </div>
-                                                <!-- -->
-                                                <div class="media-body">
-                                                    <div class="post-header">
-                                                        <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, August 15 &#8212; <strong>11:00am</strong></span>
-                                                            <a href="http://ate.so/?N5XEnDH" target="_blank" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                        <h2 class="post-title"><a href="http://ate.so/?N5XEnDH" target="_blank">Fair State Brewing</a></h2>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-excerpt">
-                                                            <p class="caption-text">
-                                                                    Join us at the first brewery coop in the State as we fun-run through NE Minneapolis and enjoy a freshly brewed beer! So good, you might want to become a coop member! Click on the big red button for more info &amp; to register.<br>
-                                                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/beer-run-fair-state-brewing-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="post-footer">
-                                                        <span class="post-readmore">
-                                                            <ul>
-                                                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="https://www.facebook.com/pages/A-Bit-of-Gorgonzola/1493801230834642?sk=timeline" target="_blank">A Bit of Gorgonzola</a></li>
-                                                                <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / <a href="https://www.facebook.com/alaplanchatc" target="_blank">A La Plancha</a></li>
-                                                            </ul>
-                                                            <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                            <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!-- -->
-                                            </div>
-                                        </article>
-
-                                        <article class="post-wrap">
-                                            <div class="media">
-                                                <!-- -->
-                                                <div class="post-media pull-left">
-                                                    <img src="assets/img/preview/wander-north.jpg" alt="" class="media-object" />
-                                                </div>
-                                                <!-- -->
-                                                <div class="media-body">
-                                                    <div class="post-header">
-                                                        <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, August 22 &#8212; <strong>11:00am</strong></span>
-                                                            <a href="http://ate.so/?AKSZXah" target="_blank" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                        <h2 class="post-title"><a href="http://ate.so/?AKSZXah" target="_blank">Wander North Distillery</a></h2>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-excerpt">
-                                                            <p class="caption-text">
-                                                                    We thought about calling it a &ldquo;Stripping Run&rdquo; (phrase used in distilling meaning the first run through the distilling process), but we will stick with &ldquo;SPIRIT RUN&rdquo;! The first of it's kind: Run, then enjoy a Cocktail made from craft distilled vodka, gin, or run right here at Wander North! Click on the big red button for more info &amp; to register.<br>
-                                                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/spirit-run-wander-north-distillery-part-of-the-mn-brewery-running-series-event-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Sold Out <!--<i class="fa fa-arrow-circle-right"></i>--></a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="post-footer">
-                                                        <span class="post-readmore">
-                                                            <ul>
-                                                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href"http://www.themoderneramusic.com/" target="_blank">The Modern Era</a></li>
-                                                                <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / <a href="http://www.thecavecafe.biz/" target="_blank">The Cave Cafe</a></li>
-                                                            </ul>
-                                                            <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                            <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!-- -->
-                                            </div>
-                                        </article>
-
-                                        <article class="post-wrap">
-                                            <div class="media">
-                                                <!-- -->
-                                                <div class="post-media pull-left">
-                                                    <img src="assets/img/preview/mankato.jpg" alt="" class="media-object" />
-                                                </div>
-                                                <!-- -->
-                                                <div class="media-body">
-                                                    <div class="post-header">
-                                                        <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> Saturday, August 29 &#8212; <strong>11:00am</strong></span>
-                                                            <a href="http://ate.so/?HpS838C" target="_blank" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-calendar"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                        <h2 class="post-title"><a href="http://ate.so/?HpS838C" target="_blank">Mankato Brewery</a></h2>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-excerpt">
-                                                            <p class="caption-text">
-                                                                    Join us in Mankato for a home-town feel fun run and great beer from Mankato Brewing. You are sure to enjoy this expansive brewery, fun, and music! Click on the big red button for more info &amp; to register.<br>
-                                                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/mankato-mn/running/distance-running-races/beer-run-mankato-brewery-part-of-the-mn-brewery-running-series-event-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="post-footer">
-                                                        <span class="post-readmore">
-                                                            <ul>
-                                                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="https://soundcloud.com/ightband">Light</a></li>
-                                                                <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / TBD</li>
-                                                            </ul>
-                                                            <!--<a href="#"><i class="fa fa-facebook"></i></a>
-                                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                            <a href="#"><i class="fa fa-instagram"></i></a>-->
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!-- -->
-                                            </div>
-                                        </article>
+                                        <!-- TODO: PUT FUTURE EVENTS HERE FROM JSON -->
                                     </div>
                                 </div>
                             </div>
@@ -2040,10 +1091,10 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-                        
+
                     <div class="container-toggle-expand-events">
                         <a class="btn btn-theme btn-theme-lg scroll-to" id="toggle-expand-events" href="#" data-animation="flipInY" data-animation-delay="600">Show More</a>
-                    </div>  
+                    </div>
                 </div>
             </div>
             <!-- /Schedule -->
@@ -2065,9 +1116,9 @@ include("header.php");
                             <a href="https://www.youtube.com/watch?v=2n1Z5TvL_Ig&list=UUZbkZQqKd75ubjtj_SW6cnA&index=2" target="_blank" class="btn btn-theme btn-theme-xl btn-theme-transparent" data-animation="flipInY" data-animation-delay="400">Watch video</a>
                         </p>
                     </div>
-                    
+
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pull-left">
-                        <!-- Embedded video 
+                        <!-- Embedded video
                         <div class="youtube-border">
                         <iframe width="553" height="325" src="https://www.youtube.com/embed/2n1Z5TvL_Ig?list=UUZbkZQqKd75ubjtj_SW6cnA" frameborder="0" allowfullscreen></iframe>
                         </div> -->
@@ -2159,7 +1210,7 @@ include("header.php");
                 <!-- Make a donation now
                 https://developer.paypal.com/webapps/developer/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/
                 -->
-                
+
                 <div class="sponsor-wrap first">
                     <div class="thumbnail no-border no-padding">
                         <div class="media">
@@ -2172,8 +1223,8 @@ include("header.php");
                         <form action="http://www.peopleforparks.net/" method="link" target="_blank">
                             <button name="submit" class="btn btn-theme">Learn more!</button>
                         </form>
-                    </div>     
-                </div> 
+                    </div>
+                </div>
 
                 <div class="sponsor-wrap second">
                     <div class="thumbnail no-border no-padding">
@@ -2187,7 +1238,7 @@ include("header.php");
                         <form action="http://www.brewingabetterforest.com/" method="link" target="_blank">
                             <button name="submit" class="btn btn-theme">Learn more!</button>
                         </form>
-                    </div>   
+                    </div>
                 </div>
 
                 <div class="sponsor-wrap third">
@@ -2203,7 +1254,7 @@ include("header.php");
                             <form action="http://bolderoptions.org/" method="link" target="_blank">
                                 <button name="submit" class="btn btn-theme">Learn more!</button>
                             </form>
-                        </div>  
+                        </div>
                     </div>
                 </div>
 
@@ -2218,11 +1269,11 @@ include("header.php");
                     <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-thumbs-up fa-stack-1x"></i></span></span>
                     <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Partners &amp; Sponsors <small> / the best around.</small></span>
                 </h1>
-                
+
                 <div class="partners-carousel" data-animation="fadeInUp" data-animation-delay="300">
 
-                    
-                    
+
+
                     <div class="owl-carousel">
                         <div class="item"><a href="www.brewride.com" target="_blank"><img src="assets/img/sponsor-logos/brew-ride.jpg" alt=""/></a></div>
                         <div class="item"><a href="http://dunnbros.com/" target="_blank"><img src="assets/img/sponsor-logos/dunn-bros.jpg" alt=""/></a></div>
@@ -2354,7 +1405,7 @@ include("header.php");
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="3"></li>
               </ol>
-             
+
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <!--item 1-->
@@ -2468,7 +1519,7 @@ include("header.php");
                   </div>
                 </div>
               </div>-->
-     
+
               <!-- Controls -->
               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -2479,14 +1530,14 @@ include("header.php");
             </div> <!-- Carousel -->
         </section>
 
-        <!-- MERCHANDISE 
+        <!-- MERCHANDISE
         <section class="page-section" id="merchandise">
             <div class="container">
                 <h1 class="section-title">
                     <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-user fa-stack-1x"></i></span></span>
                     <span data-animation="fadeInUp" data-animation-delay="500" class="title-inner">Merchandise<small> / bringing the brewery running series to life.</small></span>
                 </h1>
-                <!-- Merch row 
+                <!-- Merch row
                 <div id="mycarousel" class="carousel slide jumbotron">
                     <div class="container">
                         <div class="carousel-inner">
@@ -2542,9 +1593,9 @@ include("header.php");
                                     </div>
                                 </div>
                             </div>
-                        </div>    
+                        </div>
                     </div>
-                    <!-- 
+                    <!--
                     <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="300">
                         <div class="thumbnail no-border no-padding text-center">
                             <div class="media">
@@ -2576,7 +1627,7 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-                    <!-- 
+                    <!--
                     <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="500">
                         <div class="thumbnail no-border no-padding text-center">
                             <div class="media">
@@ -2631,7 +1682,7 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-                    <!-- 
+                    <!--
                     <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="thumbnail no-border no-padding text-center">
                             <div class="hex">
@@ -2671,13 +1722,13 @@ include("header.php");
                         </div>
                     </div>
                 </div>  -->
-                <!-- /Team row 
+                <!-- /Team row
 
                 <div class="text-center margin-top">
                     <a data-animation="fadeInUp" data-animation-delay="100" href="#" class="btn btn-theme"><i class="fa fa-user"></i> See all speakers</a>
                 </div> -->
             </div>
-        </section> 
+        </section>
 
         <!-- PAGE PRICE -->
         <!--<section class="page-section" id="price">
@@ -2828,7 +1879,7 @@ include("header.php");
                         <div id="mce-responses" class="clear">
                             <div class="response" id="mce-error-response" style="display:none"></div>
                             <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div> 
+                        </div>
                         <div class="col-md-12 overflowed">
                             <div class="text-center margin-top">
                                 <button
@@ -2842,7 +1893,7 @@ include("header.php");
             </div>
         </section>
 
-        <!-- Begin MailChimp Signup Form 
+        <!-- Begin MailChimp Signup Form
                 <div id="mc_embed_signup">
                 <form action="//breweryrunningseries.us9.list-manage.com/subscribe/post?u=774f03790ce9380a971e6c23f&amp;id=9fbb3ceb65" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
@@ -2872,7 +1923,7 @@ include("header.php");
                 </div> -->
 
 <!--End mc_embed_signup-->
-        
+
         <!-- PAGE TEAM -->
         <section class="page-section light" id="team">
             <div class="container">
@@ -3044,13 +2095,13 @@ include("header.php");
                     </div>
                     <!-- -->
                 </div>
-                <!-- /Team row 
+                <!-- /Team row
 
                 <div class="text-center margin-top">
                     <a data-animation="fadeInUp" data-animation-delay="100" href="#" class="btn btn-theme"><i class="fa fa-user"></i> See all speakers</a>
                 </div> -->
             </div>
-        </section> 
+        </section>
         <!-- /PAGE TEAM -->
 
         <!-- FAQs
@@ -3161,8 +2212,8 @@ include("header.php");
         </section>
 
         /FAQs-->
-        
-        <!-- Donation 
+
+        <!-- Donation
 
         <section class="page-section color">
             <div class="container">
@@ -3187,7 +2238,7 @@ include("header.php");
                 </h1>
                 <div class="row post-row">
 
-                     
+
                     <div class="col-md-4">
                         <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="100">
                             <div class="post-media">
@@ -3221,7 +2272,7 @@ include("header.php");
                                 </span>
                             </div>
                         </article>
-                    </div> 
+                    </div>
 
                      ------------
                     <div class="col-md-4">
@@ -3340,20 +2391,20 @@ include("header.php");
                             <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-envelope fa-stack-1x"></i></span></span>
                             <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Contact Us</span>
                         </h1>
-      
+
                         <form name="af-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>#contact" enctype="multipart/form-data" class="af-form row" id="af-form">
                             <fieldset>
                                 <?php if(isset($hasError)) { //If errors are found ?>
                                     <p class="alert alert-danger">Please check if you've filled all the fields with valid information and try again. Thank you.</p>
                                 <?php } ?>
-    
+
                                 <?php if(isset($emailSent) && $emailSent == true) { //If email is sent ?>
                                     <div class="alert alert-success">
                                         <p><strong>Got it!</strong></p>
                                         <p>Thanks for your email, <strong><?php echo $name;?></strong>! It was sent successfully and we'll be in touch with you soon.</p>
                                     </div>
                                 <?php } ?>
-    
+
                                 <div class="col-sm-12 af-outer af-required">
                                     <div class="form-group af-inner">
                                         <input
@@ -3362,7 +2413,7 @@ include("header.php");
                                                 class="form-control placeholder"/>
                                     </div>
                                 </div>
-    
+
                                 <div class="col-sm-12 af-outer af-required">
                                     <div class="form-group af-inner">
                                         <input
@@ -3371,7 +2422,7 @@ include("header.php");
                                                 class="form-control placeholder"/>
                                     </div>
                                 </div>
-    
+
                                 <div class="col-sm-12 af-outer af-required">
                                     I'd like to...
                                     <div class="form-group af-inner radio">
@@ -3381,7 +2432,7 @@ include("header.php");
                                         <label><input type="radio" class="formbox" name="subject" value="Other" />Other</label>
                                     </div>
                                 </div>
-    
+
                                 <div class="col-sm-12 af-outer af-required">
                                     <div class="form-group af-inner">
                                         <textarea
@@ -3390,7 +2441,7 @@ include("header.php");
                                                 class="form-control placeholder"></textarea>
                                     </div>
                                 </div>
-    
+
                                 <div class="col-sm-12 af-outer af-required text-center">
                                     <div class="form-group af-inner">
                                         <input type="submit" name="submit" class="form-button form-button-submit btn btn-theme btn-theme-lg btn-theme-transparent" id="submit_btn" value="Send Message" />
