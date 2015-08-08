@@ -1,14 +1,38 @@
 [
     {
-        "name": "",
-        "location": "",
-        "address": "",
-        "latitude": 0.0,
-        "longitude": 0.0,
-        "registrationLink": "",
-        "year": 1000,
-        "month": 0,
-        "day": 0,
-        "hoursAfterMidnight": 0
+        "name": "Fair State Brewing",
+        "location": "Fair State Brewing",
+        "address": "2506 Central Ave NE, Minneapolis, MN 55418",
+        "registrationLink": "http://www.active.com/minneapolis-mn/running/beer-run-fair-state-brewing-part-of-the-mn-brewery-running-series-2015",
+        "latitude": 45.013559,
+        "longitude": -93.2477764,
+        "year": 2015,
+        "month": 8,
+        "day": 15,
+        "hoursAfterMidnight": 11
+    },
+    {
+        "name": "Wander North Distillery",
+        "location": "Wander North Distillery",
+        "address": "771 Harding St NE, Minneapolis, MN 55413",
+        "registrationLink": "http://www.active.com/minneapolis-mn/running/distance-running-races/spirit-run-wander-north-distillery-part-of-the-mn-brewery-running-series-event-2015",
+        "latitude": 44.9979544,
+        "longitude": 44.9979544,
+        "year": 2015,
+        "month": 8,
+        "day": 22,
+        "hoursAfterMidnight": 11
+    },
+    {
+        "name": "Mankato Brewery",
+        "location": "Mankato Brewery",
+        "address": "1119 Center St, North Mankato, MN 56003",
+        "registrationLink": "http://www.active.com/mankato-mn/running/distance-running-races/beer-run-mankato-brewery-part-of-the-mn-brewery-running-series-event-2015",
+        "latitude": 44.18251,
+        "longitude": 44.18251,
+        "year": 2015,
+        "month": 8,
+        "day": 29,
+        "hoursAfterMidnight": 11
     }
 ]
