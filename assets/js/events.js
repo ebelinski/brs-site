@@ -9,8 +9,12 @@ $(document).ready(function() {
 		var eventTemplate = Handlebars.compile(eventSource);
 
 		for (var i in events) {
+			var event = events[i]
 			var eventContext = {
-				breweryName: events[i].location
+				eventImageUrl: event.eventImageUrl,
+				breweryName: event.location,
+				description: event.description,
+				registrationUrl: event.registrationLink
 			}
 			upcomingEvents += eventTemplate(eventContext);
 		}

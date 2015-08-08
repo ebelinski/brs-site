@@ -34,7 +34,7 @@
         <div class="media">
             <!-- -->
             <div class="post-media pull-left">
-                <img src="{{event-image}}" alt="" class="media-object" />
+                <img src="{{eventImageUrl}}" alt="" class="media-object" />
             </div>
             <!-- -->
             <div class="media-body">
