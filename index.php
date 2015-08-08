@@ -458,7 +458,7 @@ include("header.php");
                                             </div>
                                         </div>
 
-                                        <!-- TODO: PUT FUTURE EVENTS HERE FROM JSON -->
+                                        <div id="upcoming-events"></div>
                                     </div>
                                 </div>
                             </div>
