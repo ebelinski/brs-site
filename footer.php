@@ -77,6 +77,8 @@
 </script>
 
 <script src="assets/js/handlebars-v3.0.3.js"></script>
+<script src="assets/js/events.js"></script>
+
 <script type="text/javascript">
     jQuery(document).ready(function () {
         theme.init();
