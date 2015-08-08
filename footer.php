@@ -29,6 +29,54 @@
 <!--<script src="assets/js/theme-config.js"></script> -->                   <!--THEME CONFIGURATION TOGGLE HERe-->
 <!--<![endif]-->
 
+<script id="event-template" type="text/x-handlebars-template">
+    <article class="post-wrap">
+        <div class="media">
+            <!-- -->
+            <div class="post-media pull-left">
+                <img src="{{event-image}}" alt="" class="media-object" />
+            </div>
+            <!-- -->
+            <div class="media-body">
+                <div class="post-header">
+                    <div class="post-meta">
+                        <span class="post-date"><i class="fa fa-clock-o"></i> {{date-time}}</strong></span>
+                        <a href="http://ate.so/?67UT5yL" target="_blank" class="pull-right">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-stack-2x fa-circle-thin"></i>
+                                <i class="fa fa-stack-1x fa-calendar"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <h2 class="post-title"><a href="http://example.com" target="_blank">{{breweryName}}</a></h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                        <p class="caption-text">
+                                {{description}}<br>
+                                <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registration-url}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <span class="post-readmore">
+                        <ul>
+                            <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="{{live-music-url}}">{{live-music-name}}</a></li>
+                            <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / <a href="{{food-truck-url}}">{{food-truck-name}}</a></li>
+                        </ul>
+                        <!--<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>-->
+                    </span>
+                </div>
+            </div>
+            <!-- -->
+        </div>
+    </article>
+</script>
+
+<script src="assets/js/handlebars-v3.0.3.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         theme.init();
