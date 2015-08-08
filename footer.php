@@ -40,7 +40,7 @@
             <div class="media-body">
                 <div class="post-header">
                     <div class="post-meta">
-                        <span class="post-date"><i class="fa fa-clock-o"></i> {{dateTime}}</strong></span>
+                        <span class="post-date"><i class="fa fa-clock-o"></i> {{date}} &mdash; <strong>{{time}}</strong></span>
                         <a href="http://ate.so/?67UT5yL" target="_blank" class="pull-right">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-stack-2x fa-circle-thin"></i>
