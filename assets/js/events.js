@@ -59,9 +59,25 @@ $(document).ready(function() {
 				description: event.description,
 				registrationUrl: event.registrationLink
 			}
-			upcomingEvents += eventTemplate(eventContext);
+
+			// console.log(event.location+"...");
+			var currentUTCTime = new Date();
+			// console.log("currentUTCTime is "+currentUTCTime.toString());
+			currentUTCTime.setMinutes(currentUTCTime.getMinutes() - currentUTCTime.getTimezoneOffset());
+			// console.log("currentUTCTime is "+currentUTCTime.toString());
+			// console.log("event time is     "+date.toString());
+			if (date < currentUTCTime) {
+				pastEvents += eventTemplate(eventContext);
+			} else {
+				if (!firstUpcomingEventSet) {
+					// TODO: Set timer and map
+					firstUpcomingEventSet = true;
+				}
+				upcomingEvents += eventTemplate(eventContext);
+			}
 		}
 
+		$("#past-events").html(pastEvents);
 		$("#upcoming-events").html(upcomingEvents);
 	})
 	.done(function() {
