@@ -1,10 +1,11 @@
 /* Past event style details */
-#past-events-container {
+.past-events-container {
 	text-align: center;
 	padding-bottom: 30px;
 }
 
-#past-events {
+.past-events {
+	text-align: left;
 	padding: 30px 0px;
 	border-bottom: 3px #404f62 solid;
 }
