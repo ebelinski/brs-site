@@ -27,9 +27,16 @@ $(document).ready(function() {
 		var firstUpcomingEventSet = false;
 
 		var pastEvents = "";
-        var upcomingEvents = "";
+        var upcomingEventsSpring = "";
+        var upcomingEventsSummer = "";
+        var upcomingEventsFall = "";
+        var upcomingEventsWinter = "";
 		var eventSource = $("#event-template").html();
 		var eventTemplate = Handlebars.compile(eventSource);
+		var currentUTCTime = new Date();
+		currentUTCTime.setMinutes(currentUTCTime.getMinutes() - currentUTCTime.getTimezoneOffset());
+
+		$(".past-events-container").hide();
 
 		for (var i in events) {
 			var event = events[i];
@@ -60,12 +67,6 @@ $(document).ready(function() {
 				registrationUrl: event.registrationLink
 			}
 
-			// console.log(event.location+"...");
-			var currentUTCTime = new Date();
-			// console.log("currentUTCTime is "+currentUTCTime.toString());
-			currentUTCTime.setMinutes(currentUTCTime.getMinutes() - currentUTCTime.getTimezoneOffset());
-			// console.log("currentUTCTime is "+currentUTCTime.toString());
-			// console.log("event time is     "+date.toString());
 			if (date < currentUTCTime) {
 				pastEvents += eventTemplate(eventContext);
 			} else {
@@ -84,18 +85,44 @@ $(document).ready(function() {
 					googleUrl += event.location.split(' ').join('+');
 					googleUrl += "/@" + event.latitude + "," + event.longitude + ",19z";
 					$("#google-maps-url-of-next-location").attr("href", googleUrl);
-					
+
 					theme.initGoogleMap(event.latitude, event.longitude);
 
 					// Making sure it won't be set a second time
 					firstUpcomingEventSet = true;
 				}
-				upcomingEvents += eventTemplate(eventContext);
+
+				var eventHTML = eventTemplate(eventContext);
+				if (getSeason(date.getMonth()) == 'spring') {
+					upcomingEventsSpring += eventHTML;
+				} else if (getSeason(date.getMonth()) == 'summer') {
+					upcomingEventsSummer += eventHTML;
+				} else if (getSeason(date.getMonth()) == 'fall') {
+					upcomingEventsFall += eventHTML;
+				} else {
+					upcomingEventsWinter += eventHTML;
+				}
 			}
 		}
 
-		$("#past-events").html(pastEvents);
-		$("#upcoming-events").html(upcomingEvents);
+		if (getSeason(currentUTCTime.getMonth()) == 'spring') {
+			$(".spring .past-events-container").show();
+			$(".spring .past-events-container .past-events").html(pastEvents);
+		} else if (getSeason(currentUTCTime.getMonth()) == 'summer') {
+			$(".summer .past-events-container").show();
+			$(".summer .past-events-container .past-events").html(pastEvents);
+		} else if (getSeason(currentUTCTime.getMonth()) == 'fall') {
+			$(".fall .past-events-container").show();
+			$(".fall .past-events-container .past-events").html(pastEvents);
+		} else {
+			$(".winter .past-events-container").show();
+			$(".winter .past-events-container .past-events").html(pastEvents);
+		}
+
+		$(".spring .upcoming-events").html(upcomingEventsSpring);
+		$(".summer .upcoming-events").html(upcomingEventsSummer);
+		$(".fall .upcoming-events").html(upcomingEventsFall);
+		$(".winter .upcoming-events").html(upcomingEventsWinter);
 	})
 	.done(function() {
 		console.log( "second success" );
@@ -107,3 +134,29 @@ $(document).ready(function() {
 		console.log( "complete" );
 	});
 });
+
+function getSeason(month) {
+	month++; // Since it's passed in as a value from 0 to 11
+    switch(month) {
+        case 12:
+        case 1:
+        case 2:
+            return 'winter';
+        break;
+        case 3:
+        case 4:
+        case 5:
+            return 'spring';
+        break;
+        case 6:
+        case 7:
+        case 8:
+            return 'summer';
+        break;
+        case 9:
+        case 10:
+        case 11:
+            return 'fall';
+        break;
+    }
+}
