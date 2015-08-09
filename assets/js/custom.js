@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
 	// For expanding the events view to show everything
-    $(".toggle-expand-events").click(function() {
-	    $(".schedule-content").toggleClass("tab-content-limited", 500, "easeOutSine");
+    $("#toggle-expand-events").click(function() {
+	    $("#schedule-content").toggleClass("tab-content-limited", 500, "easeOutSine");
 
-        if ($(".toggle-expand-events").html() === "Show More") {
-	        $(".toggle-expand-events").html("Show Less");
+        if ($("#toggle-expand-events").html() === "Show More") {
+	        $("#toggle-expand-events").html("Show Less");
         } else {
-	        $(".toggle-expand-events").html("Show More");
+	        $("#toggle-expand-events").html("Show More");
         }
     });
 
