@@ -12,7 +12,11 @@
         "month": 8,
         "day": 15,
         "hoursAfterMidnight": 11,
-        "minutes": 0
+        "minutes": 0,
+        "liveMusicName": null,
+        "liveMusicUrl": null,
+        "foodTruckName": null,
+        "foodTruckUrl": null
     },
     {
         "name": "Wander North Distillery",
@@ -27,7 +31,11 @@
         "month": 8,
         "day": 22,
         "hoursAfterMidnight": 11,
-        "minutes": 0
+        "minutes": 0,
+        "liveMusicName": null,
+        "liveMusicUrl": null,
+        "foodTruckName": null,
+        "foodTruckUrl": null
     },
     {
         "name": "Mankato Brewery",
@@ -42,6 +50,10 @@
         "month": 8,
         "day": 29,
         "hoursAfterMidnight": 11,
-        "minutes": 0
+        "minutes": 0,
+        "liveMusicName": null,
+        "liveMusicUrl": null,
+        "foodTruckName": null,
+        "foodTruckUrl": null
     }
 ]

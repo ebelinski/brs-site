@@ -64,7 +64,11 @@ $(document).ready(function() {
 				eventImageUrl: event.eventImageUrl,
 				breweryName: event.location,
 				description: event.description,
-				registrationUrl: event.registrationLink
+				registrationUrl: event.registrationLink,
+				liveMusicName: event.liveMusicName,
+				liveMusicUrl: event.liveMusicUrl,
+				foodTruckName: event.foodTruckName,
+				foodTruckUrl: event.foodTruckUrl
 			}
 
 			if (date < currentUTCTime) {
