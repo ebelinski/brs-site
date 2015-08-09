@@ -58,11 +58,16 @@ $(document).ready(function() {
 				timeString = date.getUTCHours() + ":" + timeString + "am";
 			}
 
+			var location = "";
+			if (event.location != event.name) {
+				location = event.location
+			}
 			var eventContext = {
 				date: dateString,
 				time: timeString,
 				eventImageUrl: event.eventImageUrl,
-				breweryName: event.location,
+				eventName: event.name,
+				locationName: location,
 				description: event.description,
 				registrationUrl: event.registrationLink,
 				liveMusicName: event.liveMusicName,

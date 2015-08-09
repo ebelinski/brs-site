@@ -48,7 +48,12 @@
                             </span>
                         </a>
                     </div>
-                    <h2 class="post-title"><a href="{{registrationUrl}}" target="_blank">{{breweryName}}</a></h2>
+                    <h2 class="post-title"><a href="{{registrationUrl}}" target="_blank">
+                        {{eventName}}
+                        {{#if locationName}}
+                            (at {{locationName}})
+                        {{/if}}
+                    </a></h2>
                 </div>
                 <div class="post-body">
                     <div class="post-excerpt">
