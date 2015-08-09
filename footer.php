@@ -86,7 +86,6 @@
         theme.initCountDown();
         theme.initPartnerSlider();
         theme.initTestimonials();
-        theme.initGoogleMap();
     });
     jQuery(window).load(function () {
         theme.initAnimation();

@@ -283,18 +283,18 @@ var theme = function () {
             $('#tabs-lv2 li a[data-toggle="tab"]').on('shown.bs.tab', function () { $.waypoints('refresh'); });
         },
         // Google map
-        initGoogleMap: function() {
+        initGoogleMap: function(lat, long) {
             var map;
             function initialize() {
                 var mapOptions = {
                     scrollwheel: false,
                     zoom: 16,
-                    center: new google.maps.LatLng(44.9750893,-93.2530646)
+                    center: new google.maps.LatLng(lat, long)
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(44.9750893,-93.2530646),
+                    position: new google.maps.LatLng(lat, long),
                     map: map,
                     title: 'Hello World!'
                 });
