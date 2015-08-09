@@ -79,8 +79,9 @@ $(document).ready(function() {
 					var googleUrl = "https://www.google.com/maps/place/";
 					googleUrl += event.location.split(' ').join('+');
 					googleUrl += "/@" + event.latitude + "," + event.longitude + ",19z";
-					theme.initGoogleMap(event.latitude, event.longitude);
 					$("#google-maps-url-of-next-location").attr("href", googleUrl);
+					
+					theme.initGoogleMap(event.latitude, event.longitude);
 
 					// Making sure it won't be set a second time
 					firstUpcomingEventSet = true;
