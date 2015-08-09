@@ -71,6 +71,18 @@ $(document).ready(function() {
 			} else {
 				if (!firstUpcomingEventSet) {
 					// TODO: Set timer and map
+
+					// Setting map
+					$("#name-of-next-location").html(event.location);
+					$("#address-of-next-location").html(event.address);
+
+					var googleUrl = "https://www.google.com/maps/place/";
+					googleUrl += event.location.split(' ').join('+');
+					googleUrl += "/@" + event.latitude + "," + event.longitude + ",19z";
+					theme.initGoogleMap(event.latitude, event.longitude);
+					$("#google-maps-url-of-next-location").attr("href", googleUrl);
+
+					// Making sure it won't be set a second time
 					firstUpcomingEventSet = true;
 				}
 				upcomingEvents += eventTemplate(eventContext);
