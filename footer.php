@@ -59,15 +59,29 @@
                     <div class="post-excerpt">
                         <p class="caption-text">
                                 {{description}}<br>
-                                <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registrationUrl}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
+                                {{#if registrationUrl}}
+                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registrationUrl}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
+                                {{/if}}
                         </p>
                     </div>
                 </div>
                 <div class="post-footer">
                     <span class="post-readmore">
                         <ul>
-                            <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> / <a href="{{liveMusicUrl}}">{{liveMusicName}}</a></li>
-                            <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> / <a href="{{foodTruckUrl}}">{{foodTruckName}}</a></li>
+                            {{#if liveMusicName}}
+                                <li><i class="fa fa-microphone"></i> <strong>Live Music</strong> /
+                                    {{#if liveMusicUrl}}<a href="{{liveMusicUrl}}">{{/if}}
+                                        {{liveMusicName}}
+                                    {{#if liveMusicUrl}}</a>{{/if}}
+                                </li>
+                            {{/if}}
+                            {{#if foodTruckName}}
+                                <li><i class="fa fa-truck"></i> <strong>Food Truck</strong> /
+                                    {{#if foodTruckUrl}}<a href="{{foodTruckUrl}}">{{/if}}
+                                        {{foodTruckName}}
+                                    {{#if foodTruckUrl}}</a>{{/if}}
+                                </li>
+                            {{/if}}
                         </ul>
                     </span>
                 </div>
