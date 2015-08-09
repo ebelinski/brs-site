@@ -13,10 +13,10 @@
         "day": 15,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "liveMusicName": "A Bit of Gorgonzola",
+        "liveMusicUrl": "https://www.facebook.com/pages/A-Bit-of-Gorgonzola/1493801230834642?sk=timeline",
+        "foodTruckName": "A La Plancha",
+        "foodTruckUrl": "https://www.facebook.com/alaplanchatc"
     },
     {
         "name": "Wander North Distillery",
@@ -32,10 +32,10 @@
         "day": 22,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
+        "liveMusicName": "The Modern Era",
         "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "foodTruckName": "The Cave Cafe",
+        "foodTruckUrl": "http://www.thecavecafe.biz/"
     },
     {
         "name": "Mankato Brewery",
@@ -51,9 +51,9 @@
         "day": 29,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
+        "liveMusicName": "Light",
+        "liveMusicUrl": "https://soundcloud.com/ightband",
+        "foodTruckName": "TBD",
         "foodTruckUrl": null
     },
     {
@@ -70,13 +70,13 @@
         "day": 5,
         "hoursAfterMidnight": 9,
         "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "liveMusicName": "A Bit of Gorgonzola",
+        "liveMusicUrl": "https://www.facebook.com/pages/A-Bit-of-Gorgonzola/1493801230834642?sk=timeline",
+        "foodTruckName": "The Cave Cafe",
+        "foodTruckUrl": "http://www.thecavecafe.biz/"
     },
     {
-        "name": "Northgate Brewing",
+        "name": "Northgate",
         "location": "Northgate Brewing",
         "address": "783 Harding St NE, Minneapolis, MN 55413",
         "description": "Our event in 2014 was the first ever held at Northgate's shinning new brewery & taproom, and we are back this year with what is sure to be a memorable time! A great tap room nestled in industrial part of NE, offers great beer (WALL'S END brown ale is a must) and a unique running route! Click on the big red button for more info & to register.",
@@ -89,10 +89,10 @@
         "day": 12,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "liveMusicName": "The Gentlemen's Anti-Temperance League",
+        "liveMusicUrl": "https://thegatl.bandcamp.com/releases",
+        "foodTruckName": "Tiki Tim's",
+        "foodTruckUrl": "http://www.tikitimsmn.com/"
     },
     {
         "name": "Run For the Border",
@@ -146,10 +146,10 @@
         "day": 10,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
+        "liveMusicName": "Watson",
         "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "foodTruckName": "The Curious Goat",
+        "foodTruckUrl": "https://www.facebook.com/TheCuriousGoatMN"
     },
     {
         "name": "Burning Brothers",
@@ -165,10 +165,10 @@
         "day": 17,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "liveMusicName": "Doug Otto & The Getaways",
+        "liveMusicUrl": "http://www.dougottoandthegetaways.com/",
+        "foodTruckName": "Cafe Racer",
+        "foodTruckUrl": "http://www.caferacermn.com/#about"
     },
     {
         "name": "Bad Weather Brewing",
@@ -184,10 +184,10 @@
         "day": 24,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "liveMusicName": "B-Side Band",
+        "liveMusicUrl": "http://www.theb-sideband.com/",
+        "foodTruckName": "Classic Yum",
+        "foodTruckUrl": "https://www.facebook.com/classicyum"
     },
     {
         "name": "Spooktacular Double Header AM",
@@ -203,9 +203,9 @@
         "day": 31,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
+        "liveMusicName": "Tim Houlihan",
+        "liveMusicUrl": "http://www.timhoulihan.com/",
+        "foodTruckName": "TBD",
         "foodTruckUrl": null
     },
     {
@@ -222,9 +222,9 @@
         "day": 31,
         "hoursAfterMidnight": 14,
         "minutes": 0,
-        "liveMusicName": null,
+        "liveMusicName": "Watson",
         "liveMusicUrl": null,
-        "foodTruckName": null,
+        "foodTruckName": "TBD",
         "foodTruckUrl": null
     },
     {
@@ -243,8 +243,8 @@
         "minutes": 0,
         "liveMusicName": null,
         "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
+        "foodTruckName": "Classic Yum",
+        "foodTruckUrl": "https://www.facebook.com/classicyum"
     },
     {
         "name": "NE Winter Dash",
@@ -260,9 +260,9 @@
         "day": 5,
         "hoursAfterMidnight": 11,
         "minutes": 0,
-        "liveMusicName": null,
+        "liveMusicName": "Watson and Tim Houlihan",
         "liveMusicUrl": null,
-        "foodTruckName": null,
+        "foodTruckName": "TBD",
         "foodTruckUrl": null
     },
     {
