@@ -1721,10 +1721,11 @@ include("header.php");
                             <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-map-marker fa-stack-1x"></i></span></span>
                             <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Where we'll be next:</span>
                         </h1>
-                        <p data-animation="fadeInUp" data-animation-delay="200" class="text-uppercase"><strong> Day Block Brewing </strong><br/>
-                           1105 Washington Ave S<br>
-							Minneapolis, MN 55415</p>
-                        <a href="https://www.google.com/maps/place/The+Brit's+Pub/@44.9727992,-93.2760875,15z/data=!4m2!3m1!1s0x0:0xbba60f84a5c744c4?sa=X&ved=0CIEBEPwSMA5qFQoTCJLLhqbv-8YCFYQ6iAod44wPfg" target="_new" class="btn btn-theme"
+                        <p data-animation="fadeInUp" data-animation-delay="200" class="text-uppercase">
+                            <strong><span id="name-of-next-location"></span></strong><br/>
+                            <span id="address-of-next-location"></span>
+                        </p>
+                        <a id="google-maps-url-of-next-location" href="" target="_new" class="btn btn-theme"
                            data-animation="flipInY" data-animation-delay="300">Get Directions <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
