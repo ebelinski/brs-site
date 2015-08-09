@@ -34,7 +34,7 @@ $(document).ready(function() {
 		for (var i in events) {
 			var event = events[i];
 
-			var date = new Date(Date.UTC(event.year, event.month-1, event.day, event.hoursAfterMidnight, 0, 0, 0));
+			var date = new Date(Date.UTC(event.year, event.month-1, event.day, event.hoursAfterMidnight, event.minutes, 0, 0));
 			var dateString = weekday[date.getDay()]+", "+month[date.getMonth()]+" "+date.getDate()+", "+date.getFullYear();
 
 			var timeString = "";
