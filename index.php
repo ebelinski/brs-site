@@ -23,7 +23,7 @@ include("header.php");
                             <div class="div-table">
                                 <div class="div-cell padding-fix">
                                     <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>Countdown to our Next Event!</span></h2>
-                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300"><a href="#past-events-container" class="scroll-to">Day Block Brewing</a></h3>
+                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300"><a href="#past-events-container" class="scroll-to" id="name-of-next-event"></a></h3>
                                     <div class="countdown-wrapper">
                                         <div id="defaultCountdown" class="defaultCountdown clearfix"></div>
                                     </div>

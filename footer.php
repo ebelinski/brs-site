@@ -83,7 +83,6 @@
     jQuery(document).ready(function () {
         theme.init();
         theme.initMainSlider();
-        theme.initCountDown();
         theme.initPartnerSlider();
         theme.initTestimonials();
     });

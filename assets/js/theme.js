@@ -209,10 +209,12 @@ var theme = function () {
             });
 
         },
-        // Couneme-cotDown
-        initCountDown: function () {
+
+        initCountDown: function (year, month, day, hour) {
+            console.log("init count down called");
+            // TODO: Add ability to pass in the minutes of the event
             var austDay = new Date();
-            austDay = new Date(austDay.getFullYear() + 0, 8 - 1, 6, 18);        // (year, month, day, hour) //
+            austDay = new Date(year, month, day, hour);        // (year, month, day, hour) //
             $('#defaultCountdown').countdown({until: austDay});
             $('#year').text(austDay.getFullYear());
         },

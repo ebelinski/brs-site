@@ -70,7 +70,11 @@ $(document).ready(function() {
 				pastEvents += eventTemplate(eventContext);
 			} else {
 				if (!firstUpcomingEventSet) {
-					// TODO: Set timer and map
+					// Set top of page
+					$("#name-of-next-event").html(event.name);
+
+					// Set timer
+					theme.initCountDown(date.getFullYear(), date.getMonth(), date.getDate(), date.getUTCHours());
 
 					// Setting map
 					$("#name-of-next-location").html(event.location);
