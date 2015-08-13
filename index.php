@@ -23,7 +23,7 @@ include("header.php");
                             <div class="div-table">
                                 <div class="div-cell padding-fix">
                                     <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>Countdown to our Next Event!</span></h2>
-                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300"><a href="#past-events-container" class="scroll-to" id="name-of-next-event"></a></h3>
+                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300"><a href="#past-events-container-active" class="scroll-to" id="name-of-next-event"></a></h3>
                                     <div class="countdown-wrapper">
                                         <div id="defaultCountdown" class="defaultCountdown clearfix"></div>
                                     </div>
@@ -137,7 +137,7 @@ include("header.php");
                                 <div id="tab-lv22-first" class="tab-pane fade in active">
                                     <div class="timeline summer">
 
-                                        <div class="past-events-container">
+                                        <div class="past-events-container" id="past-events-container-active">
                                             <a class="btn btn-theme btn-theme-lg scroll-to toggle-past-events" href="#" data-animation="flipInY" data-animation-delay="600">Show Past Events</a>
                                             <div class="past-events">
                                             </div>
