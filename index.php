@@ -28,7 +28,7 @@ include("header.php");
                                         <div id="defaultCountdown" class="defaultCountdown clearfix"></div>
                                     </div>
                                     <p class="caption-text">
-                                        <a class="btn btn-theme btn-theme-xl scroll-to" href="http://www.active.com/minneapolis-mn/running/distance-running-races/beer-run-day-block-brewing-co-part-of-the-mn-brewery-running-series-2015" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a class="btn btn-theme btn-theme-xl scroll-to" id="registration-link-of-next-event" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
                                     </p>
                                 </div>
                             </div>

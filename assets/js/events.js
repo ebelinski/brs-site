@@ -82,6 +82,7 @@ $(document).ready(function() {
 				if (!firstUpcomingEventSet) {
 					// Set top of page
 					$("#name-of-next-event").html(event.name);
+					$("#registration-link-of-next-event").attr("href", event.registrationLink);
 
 					// Set timer
 					theme.initCountDown(date.getFullYear(), date.getMonth(), date.getDate(), date.getUTCHours());
