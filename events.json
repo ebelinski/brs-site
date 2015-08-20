@@ -96,25 +96,6 @@
         "foodTruckUrl": "http://www.tikitimsmn.com/"
     },
     {
-        "name": "Run For the Border",
-        "location": null,
-        "address": null,
-        "description": "Have you ever sat down on Sunday to watch the big game and suddenly realize you didn't have any beer? So have we. That's why we are going to do a sprint to the Wisconsin border to pick up beer on September 20th. Come out and Run for the Border with us to promote Sunday beer sales in Minnesota! Registration opening soon!",
-        "registrationLink": null,
-        "eventImageUrl": "http://www.breweryrunningseries.com/assets/img/preview/tap-takeover.png",
-        "latitude": null,
-        "longitude": null,
-        "year": 2015,
-        "month": 9,
-        "day": 20,
-        "hoursAfterMidnight": 12,
-        "minutes": 0,
-        "liveMusicName": null,
-        "liveMusicUrl": null,
-        "foodTruckName": null,
-        "foodTruckUrl": null
-    },
-    {
         "name": "AFFILIATE EVENT - MN River Builders 5k",
         "location": "Mankato Brewery",
         "address": "1119 Center St, North Mankato, MN 56003",
