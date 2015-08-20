@@ -250,6 +250,7 @@ var theme = function () {
                 loop: true,
                 dots: true,
                 nav: false,
+                autoplayTimeout: 8000,
                 navText: [
                     "<i class='fa fa-caret-left'></i>",
                     "<i class='fa fa-caret-right'></i>"
