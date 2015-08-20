@@ -51,3 +51,10 @@ div.container-toggle-expand-events {
 	text-align: center;
 	padding: 20px 0px 12px;
 }
+
+@media screen and (min-width: 700px) {
+	.testimonial-avatar, .testimonial-avatar img {
+		width: 180px !important;
+		height: 180px;
+	}
+}
