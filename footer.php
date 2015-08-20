@@ -59,8 +59,12 @@
                     <div class="post-excerpt">
                         <p class="caption-text">
                                 {{description}}<br>
-                                {{#if registrationUrl}}
-                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registrationUrl}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
+                                {{#if soldOut}}
+                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registrationUrl}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Sold Out! </a>
+                                {{else}}
+                                    {{#if registrationUrl}}
+                                        <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registrationUrl}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
+                                    {{/if}}
                                 {{/if}}
                         </p>
                     </div>

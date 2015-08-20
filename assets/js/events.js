@@ -70,6 +70,7 @@ $(document).ready(function() {
 				locationName: location,
 				description: event.description,
 				registrationUrl: event.registrationLink,
+				soldOut: event.soldOut,
 				liveMusicName: event.liveMusicName,
 				liveMusicUrl: event.liveMusicUrl,
 				foodTruckName: event.foodTruckName,
