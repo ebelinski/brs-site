@@ -60,7 +60,7 @@
                         <p class="caption-text">
                                 {{description}}<br>
                                 {{#if soldOut}}
-                                    <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registrationUrl}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Sold Out! </a>
+                                    <div class="btn btn-theme btn-theme-xl" data-animation="flipInY" data-animation-delay="600"> Sold Out! </div><br>
                                 {{else}}
                                     {{#if registrationUrl}}
                                         <a id="register-button" class="btn btn-theme btn-theme-xl scroll-to" href="{{registrationUrl}}" target="_new" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
