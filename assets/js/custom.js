@@ -14,7 +14,7 @@ $(document).ready(function(){
     // For showing past events
 	$(".past-events").hide();
 
-    $(".toggle-past-events").click(function(){
+    $(".toggle-past-events").click(function() {
         $(".past-events").toggle();
 
         if ($(".toggle-past-events").html() === "Show Past Events") {
@@ -22,5 +22,12 @@ $(document).ready(function(){
         } else {
 	        $(".toggle-past-events").html("Show Past Events");
         }
+    });
+
+    $(".next-page-button a").click(function(event) {
+        console.log("Hello");
+        var destination = $(this).attr("href");
+        console.log(destination);
+        $('.nav a[href="'+destination+'"]').tab('show');
     });
 });

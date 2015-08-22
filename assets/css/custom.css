@@ -52,6 +52,11 @@ div.container-toggle-expand-events {
 	padding: 20px 0px 12px;
 }
 
+div.next-page-button {
+	text-align: center;
+	padding-top: 30px;
+}
+
 @media screen and (min-width: 700px) {
 	.testimonial-avatar, .testimonial-avatar img {
 		width: 180px !important;

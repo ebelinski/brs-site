@@ -127,6 +127,9 @@ include("header.php");
 
                                         <div class="upcoming-events"></div>
 
+                                        <div class="next-page-button">
+                                            <a href="#tab-second" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="600">Next Page: Summer Events</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -144,6 +147,10 @@ include("header.php");
                                         </div>
 
                                         <div class="upcoming-events"></div>
+
+                                        <div class="next-page-button">
+                                            <a href="#tab-third" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="600">Next Page: Fall Events</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -162,6 +169,9 @@ include("header.php");
 
                                         <div class="upcoming-events"></div>
 
+                                        <div class="next-page-button">
+                                            <a href="#tab-last" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="600">Next Page: Winter Events</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -180,6 +190,9 @@ include("header.php");
 
                                         <div class="upcoming-events"></div>
 
+                                        <div class="next-page-button">
+                                            <a href="#tab-first" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="600">Next Page: Spring Events</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
