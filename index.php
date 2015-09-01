@@ -107,8 +107,8 @@ include("header.php");
                     <div class="schedule-tabs lv1">
                         <ul id="tabs-lv1"  class="nav nav-justified">
                             <li><a href="#tab-first" data-toggle="tab"><strong>Spring<br><i class="fa fa-bug"></i></strong></a></li>
-                            <li class="active"><a href="#tab-second" data-toggle="tab"><strong>Summer<br><i class="fa fa-sun-o"></i></strong></a></li>
-                            <li><a href="#tab-third" data-toggle="tab"><strong>Fall<br><i class="fa fa-leaf"></i></strong></a></li>
+                            <li><a href="#tab-second" data-toggle="tab"><strong>Summer<br><i class="fa fa-sun-o"></i></strong></a></li>
+                            <li class="active"><a href="#tab-third" data-toggle="tab"><strong>Fall<br><i class="fa fa-leaf"></i></strong></a></li>
                             <li><a href="#tab-last" data-toggle="tab"><strong>Winter<br><i class="fa fa-tree"></i></strong></a></li>
                         </ul>
                     </div>
@@ -135,7 +135,7 @@ include("header.php");
                             </div>
                         </div>
                         <!-- tab2 -->
-                        <div id="tab-second" class="tab-pane fade in active">
+                        <div id="tab-second" class="tab-pane fade">
                             <div class="tab-content lv2">
                                 <div id="tab-lv22-first" class="tab-pane fade in active">
                                     <div class="timeline summer">
@@ -156,7 +156,7 @@ include("header.php");
                             </div>
                         </div>
                         <!-- tab3 -->
-                        <div id="tab-third" class="tab-pane fade">
+                        <div id="tab-third" class="tab-pane fade in active">
                             <div class="tab-content lv2">
                                 <div id="tab-lv23-first" class="tab-pane fade in active">
                                     <div class="timeline fall">
