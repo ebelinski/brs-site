@@ -2270,12 +2270,13 @@ footer.post-meta .post-categories {display: block;}
     max-width: 100%;
     width: 100%;
 }
-.thumbnail.hover .media img,
-.thumbnail:hover .media img {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-
+@media (min-width: 992px) {
+    .thumbnail.hover .media img,
+    .thumbnail:hover .media img {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 }
 /* fix animation bug */
 .thumbnail .media.img-circle,
