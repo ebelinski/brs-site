@@ -98,7 +98,7 @@ include("header.php");
                     </div>
                     <div class="col-md-4 text-right-md pull-right">
                         <a href="assets/files/schedule-2015.pdf" target="_blank" class="btn btn-theme btn-theme-lg btn-theme-transparent-grey pull-right"
-                           data-animation="flipInY" data-animation-delay="300"><i class="fa fa-plus-square"></i> See all events!</a>
+                           data-animation="flipInY" data-animation-delay="300"><i class="fa fa-plus-square"></i> Events PDF</a>
                     </div>
                 </div>
 
