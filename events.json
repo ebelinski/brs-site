@@ -395,6 +395,21 @@
         "minutes": 0
     },
     {
+        "name": "AFFILIATE EVENT - Twin K",
+        "location": "Shadow Falls Park",
+        "address": "30 N Mississippi River Blvd, St Paul, MN 55104",
+        "description": "Start & finish @ Shadow Falls Park in St. Paul, this 15k fun run will also include post-race yoga, a DJ, and cheer-zones! Organized by lululemon, with 100% of registration fees going to Bolder Options (a Series non-profit partner!).",
+        "registrationLink": "http://sweetsweatlife.com/2015/09/02/lululemon-twin-cities-run-twin-k-2015/",
+        "eventImageUrl": "assets/img/preview/bolder_options.jpg",
+        "latitude": 44.9428111,
+        "longitude": -93.1946978,
+        "year": 2015,
+        "month": 9,
+        "day": 19,
+        "hoursAfterMidnight": 8,
+        "minutes": 15
+    },
+    {
         "name": "AFFILIATE EVENT - MN River Builders 5k",
         "location": "Mankato Brewery",
         "address": "1119 Center St, North Mankato, MN 56003",
@@ -412,6 +427,21 @@
         "liveMusicUrl": null,
         "foodTruckName": null,
         "foodTruckUrl": null
+    },
+    {
+        "name": "AFFILIATE EVENT - #WishDash",
+        "location": "Fulton Brewery",
+        "address": "414 N 6th Ave, Minneapolis, MN 55401",
+        "description": "Hosted at Fulton Brewery, this charitable 1 mile ‘dashes’ around the neighborhood, starting & ending at the brewery! Entry gets you free beer & swag. Supports Make-A-Wish foundation and organized by the Target Make-A-Wish Young Professionals group.",
+        "registrationLink": "http://www.eventbrite.com/e/north-loop-wishdash-1-mile-run-fulton-post-race-celebration-benefiting-make-a-wish-minnesota-tickets-18308715862",
+        "eventImageUrl": "assets/img/preview/wishdash.jpg",
+        "latitude": 44.9849704,
+        "longitude": -93.279182,
+        "year": 2015,
+        "month": 9,
+        "day": 30,
+        "hoursAfterMidnight": 18,
+        "minutes": 0
     },
     {
         "name": "Sociable Cider Werks",
