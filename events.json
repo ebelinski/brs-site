@@ -381,6 +381,25 @@
         "foodTruckUrl": "http://www.tikitimsmn.com/"
     },
     {
+        "name": "Run for the Parks",
+        "location": "",
+        "address": "",
+        "description": "Organized by People for the Parks, a non-profit the Brewery Running Series supports, this 5K encourages ‘run, walk, stroll’ around Lake Harriet. All proceeds benefit youth sports programs! Exercise & fundraise – all for a good cause.",
+        "registrationLink": "",
+        "eventImageUrl": "assets/img/preview/5klogo2015.png",
+        "latitude": 0,
+        "longitude": 0,
+        "year": 2015,
+        "month": 9,
+        "day": 13,
+        "hoursAfterMidnight": 10,
+        "minutes": 0,
+        "liveMusicName": "",
+        "liveMusicUrl": "",
+        "foodTruckName": "",
+        "foodTruckUrl": ""
+    },
+    {
         "name": "AFFILIATE EVENT - MN River Builders 5k",
         "location": "Mankato Brewery",
         "address": "1119 Center St, North Mankato, MN 56003",
