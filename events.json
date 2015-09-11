@@ -392,11 +392,7 @@
         "month": 9,
         "day": 13,
         "hoursAfterMidnight": 10,
-        "minutes": 0,
-        "liveMusicName": "",
-        "liveMusicUrl": "",
-        "foodTruckName": "",
-        "foodTruckUrl": ""
+        "minutes": 0
     },
     {
         "name": "AFFILIATE EVENT - MN River Builders 5k",
