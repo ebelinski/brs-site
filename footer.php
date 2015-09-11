@@ -32,11 +32,11 @@
 <script id="event-template" type="text/x-handlebars-template">
     <article class="post-wrap">
         <div class="media">
-            <!-- -->
-            <div class="post-media pull-left">
+            {{#if eventImageUrl}}
+            <div class="post-media pull-left event-image-container">
                 <img src="{{eventImageUrl}}" alt="" class="media-object" />
             </div>
-            <!-- -->
+            {{/if}}
             <div class="media-body">
                 <div class="post-header">
                     <div class="post-meta">

@@ -63,3 +63,7 @@ div.next-page-button {
 		height: 180px;
 	}
 }
+
+div.event-image-container {
+	max-width: 167px;
+}
